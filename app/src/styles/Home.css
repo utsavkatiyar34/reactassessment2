@@ -1,0 +1,12 @@
+.home-button{
+        margin-left:40%;
+        margin-right: 40%;
+        height: 3.5vw;
+        margin-top: 10vw;
+        font-family: Arial, sans-serif;
+        font-size: 2vw;
+        color: white;
+        background-color:rgb(164, 27, 59);
+        border: none;
+        border-radius: 5px;
+}

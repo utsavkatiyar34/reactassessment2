@@ -9,16 +9,10 @@ const Navbar= () =>{
               </div>
               <div className='menu'>
               <ul>
-                      <NavLink to="/page1" className='menulinks'>Page1</NavLink>
+                      <NavLink to="/signup" className='menulinks'>SignUp</NavLink>
               </ul>
               <ul>
-                      <NavLink to="/page2" className='menulinks'>Page2</NavLink>
-              </ul>
-              <ul>
-                      <NavLink to="/page3" className='menulinks'>Page3</NavLink>
-              </ul>
-              <ul>
-                      <NavLink to="/page4" className='menulinks'>Page4</NavLink>
+                      <NavLink to="/login" className='menulinks'>Login</NavLink>
               </ul>
               </div>
             </nav>

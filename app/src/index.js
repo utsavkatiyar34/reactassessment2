@@ -4,22 +4,25 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Navbar from "./components/Navbar";
-import Page1 from "./components/Page1";
-import Page2 from "./components/Page2";
-import Page3 from "./components/Page3";
-import Page4 from "./components/Page4";
+import Home from "./components/Home";
+import BlogListings from "./components/BlogListings";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
+      
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Page1/>}></Route>
-        <Route exact path="/page2" element={<Page2/>}></Route>
-        <Route exact path="/page3" element={<Page3/>}></Route>
-        <Route exact path="/page4" element={<Page4/>}></Route>
+        <Route exact path="/" element={<Home/>}></Route>
+        <Route exact path="/blogs" element={<BlogListings/>}></Route>
+        <Route exact path="/signup" element={<Signup/>}></Route>
+        <Route exact path="/login" element={<Login/>}></Route>
       </Routes>
+
     </React.StrictMode>
   </BrowserRouter>
 );
